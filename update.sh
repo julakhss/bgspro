@@ -31,7 +31,7 @@ fun_bar() {
 }
 res1() {
    cd
-    wget -q https://raw.githubusercontent.com/rwrtx/AFZ/main/Cdy/menu.zip
+    wget -q https://raw.githubusercontent.com/julakssh/bgspro/main/Cdy/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
