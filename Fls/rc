@@ -1,0 +1,4 @@
+REPO="https://github.com/julakhss/bgspro/raw/refs/heads/main/"
+
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}Cfg/rclone.conf"

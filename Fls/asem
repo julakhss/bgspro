@@ -1,0 +1,7 @@
+
+REPO="https://github.com/julakhss/bgspro/raw/refs/heads/main/"
+
+https://github.com/julakhss/bgspro/raw/refs/heads/main/dropbear.conf
+
+wget -q -O /etc/default/dropbear "${REPO}dropbear.conf"
+chmod +x /etc/default/dropbear
